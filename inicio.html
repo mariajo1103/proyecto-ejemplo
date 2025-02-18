@@ -2,12 +2,75 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     
-<p>Hello</p>
+<h1 class="tic">TIC TAC TOE</h1>
 
+<div>
+    <select name="" id="modo">
+        <option value="unJugador">Un jugador</option>
+        <option value="multijugador">Dos jugadores</option>
+    </select>
+</div>
+
+<div id="gp">
+    <article>
+
+        <h2>Victorias</h2>
+        <p id="gane">0</p>
+
+    </article>
+
+    <article>
+
+        <h2>Derrotas</h2>
+        <p id="perdida">0</p>
+
+    </article>
+
+    <article>
+
+        <h2>Empate</h2>
+        <p id="empate">0</p>
+
+
+    </article>
+
+    <article>
+        <button id="btnr">Reiniciar</button>
+    </article>
+
+
+</div>
+
+<div class="contenedor">
+
+    <div class="btn" id="btn0"></div>
+    <div class="btn" id="btn1"></div>
+    <div class="btn" id="btn2"></div>
+    <div class="btn" id="btn3"></div>
+    <div class="btn" id="btn4"></div>
+    <div class="btn" id="btn5"></div>
+    <div class="btn" id="btn6"></div>
+    <div class="btn" id="btn7"></div>
+    <div class="btn" id="btn8"></div>
+
+</div>
+
+<div id="resul">
+
+</div>
+
+<div id="reiniciar">
+
+    <input type="button" id="btrei" value="Reniciar">
+
+</div>
+
+<script src="titac.js"></script>
 </body>
 </html>
